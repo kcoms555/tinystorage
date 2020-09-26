@@ -16,8 +16,26 @@ If it is not available, then send me a mail.
 Any `auth_key` is acceptable.  
 
 ## Installation
-1. Download it  
-  `git clone https://github.com/kcoms555/tinystorage`
+__1. Download or clone it__  
+```
+git clone https://github.com/kcoms555/tinystorage
+```
+__2. Go to the tinystorage directory__  
+```
+cd tinystorage
+```
+__3. Install dependencies__  
+```
+npm install
+```
+or
+```
+npm install body-parser express read-config async
+```
+__4. Run Server__  
+```
+node tinystorage.js
+```
 
 # API
 
