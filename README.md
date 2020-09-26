@@ -93,7 +93,7 @@ Open `config.json` and write it as you need.
 * `port` : A server port.  
 * `limit` : Limit of data size to upload.  
 
-## Known Problem (will be fixed)
+## Known Problems (will be fixed)
 * There is no limit to upload.  
 * Data that is not read is on the memory as long as the server is alive.  
 * If the server is closed, there is no way to restore data not read.
