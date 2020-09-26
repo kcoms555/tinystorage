@@ -1,0 +1,25 @@
+{
+  "name": "tinystorage",
+  "version": "0.1.0",
+  "description": "Tiny cloud storage server",
+  "main": "tinystorage.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "read-config": "^2.0.0",
+    "winston-daily-rotate-file": "^4.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kcoms555/tinystorage.git"
+  },
+  "keywords": [
+    "tinystorage"
+  ],
+  "author": "kcoms555",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kcoms555/tinystorage/issues"
+  },
+  "homepage": "https://github.com/kcoms555/tinystorage#readme"
+}

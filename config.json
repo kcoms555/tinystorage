@@ -1,5 +1,6 @@
 {
 	auth_keys: [
+		'guest',
 		'test_auth_key1',
 		'test_auth_key2'
 	],

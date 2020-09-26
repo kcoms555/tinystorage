@@ -107,7 +107,7 @@ function verify_auth_key(auth_key){
 	return true;
 }
 
-app.post('/api/tinystorage/:auth_key/:dict_key', wrapper( async (req, res, next) =>{
+app.post('/:auth_key/:dict_key', wrapper( async (req, res, next) =>{
 	const auth_key = req.params.auth_key;
 	const dict_key = req.params.dict_key;
 	verify_auth_key(auth_key);
@@ -121,7 +121,7 @@ app.post('/api/tinystorage/:auth_key/:dict_key', wrapper( async (req, res, next)
 	return SEND(req, res, {'ts_status':CODE_POST_SUCCESS, 'is_inuse':is_inuse});
 }));
 
-app.get('/api/tinystorage/:auth_key/:dict_key', wrapper( async (req, res, next) =>{
+app.get('/:auth_key/:dict_key', wrapper( async (req, res, next) =>{
 	const auth_key = req.params.auth_key;
 	const dict_key = req.params.dict_key;
 	verify_auth_key(auth_key);
