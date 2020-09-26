@@ -1,0 +1,9 @@
+{
+	auth_keys: [
+		'test_auth_key1',
+		'test_auth_key2'
+	],
+	use_public: false,
+	port: 3002,
+	limit: '1kb'
+}
