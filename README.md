@@ -1,4 +1,5 @@
 # tinystorage
+__Tiny Cloud Storage Server__  
 It serves a tiny storage and can be used as a short-term tiny data transfer service and etc.
 
 ## Example
@@ -13,6 +14,10 @@ Download it from the server.
 `http://jeto.ga/api/tinystorage`  
 If it is not available, then send me a mail.  
 Any `auth_key` is acceptable.  
+
+## Installation
+1. Download it  
+  `git clone https://github.com/kcoms555/tinystorage`
 
 # API
 
