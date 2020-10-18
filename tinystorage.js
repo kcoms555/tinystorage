@@ -7,7 +7,7 @@ const readConfig = require('read-config');
 var config = {}
 var use_public = true;
 var auth_keys = [];
-var PORT = 3002;
+var PORT = 3003;
 var limit = '1kb';
 
 try{
@@ -70,6 +70,7 @@ const wrapper = asyncFn => {
 const SEND = async (req, res, msg)=>{
 	var status = HTTP_SERVER_ERROR;
 	var errormsg = ''
+	console.log(msg);
 	switch(msg.ts_status){
 		case CODE_ERROR:
 			switch(msg.errorcode){
