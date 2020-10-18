@@ -16,8 +16,26 @@ If it is not available, then send me a mail.
 Any `auth_key` is acceptable.  
 
 ## Installation
-1. Download it  
-  `git clone https://github.com/kcoms555/tinystorage`
+__1. Download or clone it__  
+```
+git clone https://github.com/kcoms555/tinystorage
+```
+__2. Go to the tinystorage directory__  
+```
+cd tinystorage
+```
+__3. Install dependencies__  
+```
+npm install
+```
+or
+```
+npm install body-parser express read-config async
+```
+__4. Run Server__  
+```
+node tinystorage.js
+```
 
 # API
 
@@ -75,7 +93,7 @@ Open `config.json` and write it as you need.
 * `port` : A server port.  
 * `limit` : Limit of data size to upload.  
 
-## Known Problem (will be fixed)
+## Known Problems (will be fixed)
 * There is no limit to upload.  
 * Data that is not read is on the memory as long as the server is alive.  
 * If the server is closed, there is no way to restore data not read.
